@@ -1,0 +1,53 @@
+.sidebar{
+    position: absolute;
+    height: 100vh;
+    width: 6rem;
+    left: 0;;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s;
+}
+
+.logo{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+
+.icon{
+    height: 1rem;
+    width: 1rem;
+    background-color: rgba(127, 255, 212, 0.268);
+    border-radius: 3rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    margin-top: 20vh;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.txtdark{
+    color: rgb(243, 234, 64);
+    transition: all 0.5s;
+}
+
+.carddark{
+    background-color: #001E3C;
+    color: white;
+    transition: all 0.5s;
+}
+
+.DashDark{
+    background-color: #070B28;
+    transition: all 0.5s;
+}
